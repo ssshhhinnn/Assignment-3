@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment 3 — Flexbox & Grid</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">YourName</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#cards">Cards</a></li>
+          <li><a href="#grid">Grid Layout</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="cards" class="section container">
+    <h2>Card Row (Flexbox)</h2>
+    <div class="card-row">
+      <article class="card">
+        <img src="images/img1.jpg" alt="img1">
+        <div class="card-body">
+          <h3>Card 1</h3>
+          <p>Short description of the card. Explain purpose.</p>
+          <a class="btn" href="#">Read</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/img2.jpg" alt="img2">
+        <div class="card-body">
+          <h3>Card 2</h3>
+          <p>Short description of the card.</p>
+          <a class="btn" href="#">Read</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/img3.jpg" alt="img3">
+        <div class="card-body">
+          <h3>Card 3</h3>
+          <p>Short description of the card.</p>
+          <a class="btn" href="#">Read</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="grid" class="section container">
+    <h2>Page Layout (Grid Areas)</h2>
+    <div class="layout-grid">
+      <div class="grid-header">Header area</div>
+      <aside class="grid-sidebar">Sidebar</aside>
+      <main class="grid-main">Main content</main>
+      <div class="grid-footer">Footer</div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section container">
+    <h2>Image Gallery</h2>
+    <div class="gallery-grid">
+      <figure><img src="images/img1.jpg" alt=""><figcaption>Caption 1</figcaption></figure>
+      <figure><img src="images/img2.jpg" alt=""><figcaption>Caption 2</figcaption></figure>
+      <figure><img src="images/img3.jpg" alt=""><figcaption>Caption 3</figcaption></figure>
+      <figure><img src="images/img4.jpg" alt=""><figcaption>Caption 4</figcaption></figure>
+      <figure><img src="images/img5.jpg" alt=""><figcaption>Caption 5</figcaption></figure>
+      <figure><img src="images/img6.jpg" alt=""><figcaption>Caption 6</figcaption></figure>
+      <figure><img src="images/img7.jpg" alt=""><figcaption>Caption 7</figcaption></figure>
+      <figure><img src="images/img8.jpg" alt=""><figcaption>Caption 8</figcaption></figure>
+      <figure><img src="images/img9.jpg" alt=""><figcaption>Caption 9</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section container">
+    <h2>Portfolio Page</h2>
+    <div class="portfolio-grid">
+      <div class="projects">
+        <article class="project-card">
+          <h3>Project 1</h3>
+          <p>Short project description</p>
+          <a class="btn" href="#">View</a>
+        </article>
+        <article class="project-card">
+          <h3>Project 2</h3>
+          <p>Short project description</p>
+          <a class="btn" href="#">View</a>
+        </article>
+      </div>
+      <aside class="portfolio-sidebar">
+        <h4>About me</h4>
+        <p>Brief info and contact.</p>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="site-footer container">
+    © YourName — Assignment 3
+  </footer>
+</body>
+</html>
